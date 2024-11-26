@@ -1,0 +1,66 @@
+/* The universal selector */
+* {
+  /* Reset our code, set up our website */
+  /* Least specific element */
+  font-family: Arial, Times New Roman;
+}
+
+body {
+  color: blue;
+}
+
+p {
+  color: green;
+  font-family: arial;
+}
+
+footer p {
+  color: purple;
+}
+
+section p {
+  color: red;
+}
+
+li {
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* parent + space + nested child(target) */
+ol li {
+  color: grey;
+}
+
+ul li {
+  color: brown;
+}
+section h2 {
+  color: blueviolet;
+  text-decoration: line-through;
+}
+
+h2 span {
+  color: red;
+}
+
+figcaption a {
+  text-decoration: none;
+}
+
+/* element:state */
+
+figcaption a:hover {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+figcaption a:active {
+  color: red;
+}
+
+p a:visited {
+  color: pink;
+}
