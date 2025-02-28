@@ -7,6 +7,8 @@
   <body>
     <!-- CTRL + /: shortcut to create comment -->
     <header>
+      <!-- Internal link to somewhere on the page -->
+      <a href="#footer">Scroll to Bottom</a>
       <h1>Main title (There should only be one per html document)</h1>
     </header>
     <main>
@@ -51,8 +53,47 @@
           <li>Onion Rings</li>
         </ul>
       </section>
+      <section>
+        <h2>Images Section</h2>
+        <!-- Always start with a ./ for relative pathing because VS code is super helpful with its suggestions -->
+        <!-- The image below is sourced from unsplash -->
+        <img
+          src="./images/cat-unsplash.jpg"
+          alt="photo of grey cat"
+          width="200px"
+          height="300px"
+        />
+        <a href="https://unsplash.com/s/photos/elephant">
+          <img
+            src="./images/elephant-unsplash.jpg"
+            alt="image of elephant"
+            width="300px"
+            height="200"
+          />
+        </a>
+        <!-- Adding an image using absolute path(URL) -->
+        <img
+          src="https://images.unsplash.com/photo-1604560109558-fdd438a533c4?q=80&w=1693&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="black and white photo of a bat"
+          width="200px"
+          height="300px"
+        />
+        <a
+          href="https://unsplash.com/photos/silhouette-of-bird-flying-under-white-clouds-4elhwp7JOz8"
+          target="_blank"
+          >link to image source</a
+        >
+      </section>
+      <section>
+        <h2>Links Section</h2>
+        <p>
+          Hey everyone, this is my paragraph. Inside I can add a
+          <a href="https://www.google.com" target="_blank">link</a> to another
+          resource.
+        </p>
+      </section>
     </main>
-    <footer>
+    <footer id="footer">
       <p>Website coded by: Elle Swampy</p>
     </footer>
   </body>
