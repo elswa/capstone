@@ -1,100 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>capstone</title>
+    <title>Coffee Shop</title>
     <meta charset="utf-8" />
   </head>
   <body>
-    <!-- CTRL + /: shortcut to create comment -->
     <header>
-      <!-- Internal link to somewhere on the page -->
-      <a href="#footer">Scroll to Bottom</a>
-      <h1>Main title (There should only be one per html document)</h1>
+      <h1>Coffee Shop</h1>
+      <a href="#hot-drinks">Hot Drinks</a>
+      <a href="#cold-drinks">Cold Drinks</a>
+      <a href="#pastry-section">Pastries</a>
     </header>
     <main>
-      <!-- Below are the other heading elements: -->
-      <h2>H2 Subtitle</h2>
-      <h3>H3 Subtitle</h3>
-      <h4>H4 Subtitle</h4>
-      <h5>H5 Subtitle</h5>
-      <h6>H6 Subtitle</h6>
-
-      <!-- Using a div to group related content: -->
-      <div>
-        <h2>About the developer</h2>
-        <p>The developer started coding when they were 3 years old!</p>
-        <!-- Nested div -->
-        <div>
-          <h3>Sub-subtitle</h3>
-          <p>sub supporting paragraph</p>
-        </div>
-      </div>
-      <section>
-        <h2>List Section</h2>
-        <h3>Ordered List</h3>
-        <ol>
-          <li>Top Bun</li>
-          <li>Cheese</li>
-          <li>Hamburger</li>
-          <li>Bottom bun</li>
-        </ol>
-        <h3>Unordered List</h3>
+      <section id="hot-drinks">
+        <h2>Hot Drinks</h2>
         <ul>
-          <li>
-            Drinks:
-            <!-- nested list is within one <li> -->
-            <ol>
-              <li>Dr. Pepper</li>
-              <li>Pepsi</li>
-              <li>Sprite</li>
-            </ol>
-          </li>
-          <li>Fries</li>
-          <li>Onion Rings</li>
+          <li>Americano</li>
+          <li>Latte</li>
+          <li>Cappucino</li>
+        </ul>
+        <div>
+          <h4>Hot Drinks Gallery</h4>
+          <img
+            src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=1800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1lcmljYW5vfGVufDB8fDB8fHww"
+            alt="photo of americano"
+            width="200px"
+            height="300px"
+          />
+          <p>
+            This photo was sourced from
+            <a
+              href="https://unsplash.com/photos/white-ceramic-mug-filled-with-coffee-nBJHO6wmRWw"
+              target="_blank"
+              >here</a
+            >
+          </p>
+        </div>
+      </section>
+      <section id="cold-drinks">
+        <h2>Cold Drinks</h2>
+        <ul>
+          <li>Iced Americano</li>
+          <li>Iced Latte</li>
+          <li>Frappe</li>
         </ul>
       </section>
-      <section>
-        <h2>Images Section</h2>
-        <!-- Always start with a ./ for relative pathing because VS code is super helpful with its suggestions -->
-        <!-- The image below is sourced from unsplash -->
-        <img
-          src="./images/cat-unsplash.jpg"
-          alt="photo of grey cat"
-          width="200px"
-          height="300px"
-        />
-        <a href="https://unsplash.com/s/photos/elephant">
-          <img
-            src="./images/elephant-unsplash.jpg"
-            alt="image of elephant"
-            width="300px"
-            height="200"
-          />
-        </a>
-        <!-- Adding an image using absolute path(URL) -->
-        <img
-          src="https://images.unsplash.com/photo-1604560109558-fdd438a533c4?q=80&w=1693&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="black and white photo of a bat"
-          width="200px"
-          height="300px"
-        />
-        <a
-          href="https://unsplash.com/photos/silhouette-of-bird-flying-under-white-clouds-4elhwp7JOz8"
-          target="_blank"
-          >link to image source</a
-        >
-      </section>
-      <section>
-        <h2>Links Section</h2>
-        <p>
-          Hey everyone, this is my paragraph. Inside I can add a
-          <a href="https://www.google.com" target="_blank">link</a> to another
-          resource.
-        </p>
+      <section id="pastry-section">
+        <h2>Pastries</h2>
+        <ul>
+          <li>Banana Bread</li>
+          <li>Carrot Cake</li>
+          <li>Biscotti</li>
+        </ul>
       </section>
     </main>
-    <footer id="footer">
-      <p>Website coded by: Elle Swampy</p>
+    <footer>
+      <p>&copy; 2025 Coffee Shop</p>
     </footer>
   </body>
 </html>
