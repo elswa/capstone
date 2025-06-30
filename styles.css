@@ -1,0 +1,55 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+h1 {
+  background-color: #6f1d1b;
+  color: white;
+  text-align: center;
+}
+
+span {
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+p {
+  font-size: 20px;
+  color: purple;
+  color: red;
+  font-weight: 900;
+}
+
+p {
+  color: blue;
+}
+
+li {
+  line-height: 3;
+}
+
+/* only grab the li's inside of an ol parent */
+ol li {
+  color: blue;
+}
+
+/* Only grab the list items nested in the ol parent which are also nested in the ul parent. */
+ul ol li {
+  color: pink;
+  line-height: 1;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
