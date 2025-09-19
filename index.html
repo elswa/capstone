@@ -7,25 +7,41 @@
   <body>
     <header>
       <h1>FNTC Coffee Shop</h1>
+      <a href="#footer">To bottom</a>
+      <nav>
+        <a href="./pages/about.html">About Page</a>
+      </nav>
     </header>
     <main>
       <section>
         <h2>Hot Drinks</h2>
         <p>These are our hot drinks:</p>
-        <!-- This is a comment -->
-        <!-- Shorcu: CTRL + / -->
         <ul>
           <li>Americano</li>
           <li>Cappucino</li>
-          <li>
-            Latte
-            <ul>
-              <li>hello</li>
-              <li>world</li>
-            </ul>
-          </li>
+          <li>Latte</li>
           <li>drink</li>
         </ul>
+        <div>
+          <!-- Below is an example of an absolute path (URL - full image address) -->
+          <img
+            src="https://images.unsplash.com/photo-1532004491497-ba35c367d634?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="photo of americano on a table"
+            width=" 200px"
+            height="300px"
+          />
+          <p>
+            This image is from:
+            <a
+              href="https://unsplash.com/photos/flat-lay-photography-of-filled-teacup-DwJH5e5zXWA"
+              >unsplash</a
+            >
+          </p>
+          <p>
+            You can find more images
+            <a href="https://unsplash.com/" target="_blank">here</a>
+          </p>
+        </div>
       </section>
       <section>
         <h2>Cold Drinks</h2>
@@ -36,9 +52,18 @@
           <li>Iced Latte</li>
           <li>Frappucino</li>
         </ol>
+        <div>
+          <!-- Example of a relative path for the image source -->
+          <img
+            src="./assets/ice-americano.jpg"
+            alt="photo of an iced americano"
+            width="300"
+            height="200"
+          />
+        </div>
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <p>FNTC Coffee Shop. All Rights Reserved</p>
     </footer>
   </body>
