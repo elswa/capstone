@@ -5,8 +5,12 @@
     <title>Auntie's Deadly Eats</title>
   </head>
   <body>
-    <header>
+    <!-- You do not need to add the hashtag inside the ID name. -->
+    <header id="header">
       <h1>Auntie's Deadly Eats</h1>
+      <nav>
+        <a href="./pages/contact.html">About</a>
+      </nav>
     </header>
     <main>
       <!-- Here's my first section for food -->
@@ -25,6 +29,16 @@
           <li>Bannock Chili</li>
           <li>Hamburger Soup</li>
         </ul>
+        <div>
+          <!-- example of an absolute path -->
+          <img
+            src="https://plus.unsplash.com/premium_vector-1711987891650-5e4ead2bbc88?q=80&w=2610&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="black and white line art of salmon"
+            width="250px"
+            height="150px"
+          />
+          <p>This is image belongs to: filler</p>
+        </div>
       </section>
       <section>
         <h2>Drinks</h2>
@@ -41,11 +55,30 @@
           <li>Black Coffee</li>
           <li>Matcha Latte</li>
         </ol>
+        <div>
+          <figure>
+            <!-- relative pathing -->
+            <img
+              src="./images/bepsi-Ruby-Bruce.jpg"
+              alt="Indigenous artwork of pepsi by Ruby Bruce"
+              width="220px"
+              height="175px"
+            />
+            <figcaption>
+              This artwork is by:
+              <a href="https://indspire.ca/laureate/ruby-bruce/" target="_blank"
+                >Ruby Bruce</a
+              >
+            </figcaption>
+          </figure>
+        </div>
       </section>
     </main>
     <footer>
       <!-- Add link around developer name -->
       <p>Webstie built by: Elle Swampy</p>
+      <!-- The anchor tag needs the correct notation to link to an ID attribute, this is the hashtag, followed by the ID name: -->
+      <a href="#header">Back to top</a>
     </footer>
   </body>
 </html>
