@@ -1,0 +1,28 @@
+body {
+  color: white;
+  background-color: beige;
+  font-family: "Playwrite GB J", cursive, Arial;
+}
+
+/* hexcode example, found online */
+header {
+  background-color: #b2be438b;
+}
+
+footer {
+  background-color: pink;
+}
+
+/* RGB example, found online */
+section {
+  background-color: rgb(116, 137, 53);
+}
+
+/* Styles for my contact page */
+.contact-header {
+  background-color: orange;
+}
+
+.contact-nav {
+  background-color: white;
+}
