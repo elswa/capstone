@@ -1,12 +1,34 @@
+/* universal selector - used to reset styles */
+* {
+  /* font-family: "Playwrite GB J", cursive, Arial; */
+  font-size: 14px;
+}
+
 body {
   color: white;
   background-color: beige;
-  font-family: "Playwrite GB J", cursive, Arial;
 }
 
 /* hexcode example, found online */
 header {
   background-color: #b2be438b;
+}
+
+h1 {
+  font-size: 28px;
+  color: red;
+  /* With the cascading rule, the blueviolet with overwrite the red color as our code is rendered top to bottom */
+  color: blueviolet;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  font-style: normal;
 }
 
 footer {
@@ -25,4 +47,34 @@ section {
 
 .contact-nav {
   background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:active {
+  color: black;
+}
+
+/* parent child(the child is what we are selecting) */
+
+footer a {
+  font-size: 1.5rem;
+}
+
+li {
+  text-decoration: underline;
+}
+
+ol li {
+  text-decoration: line-through;
 }
