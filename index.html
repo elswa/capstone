@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
   </head>
   <body>
-    <header>
+    <header id="top">
       <h1>Auntie Deadly Eats</h1>
       <!-- <nav>Here you can add links for navigation</nav> -->
     </header>
@@ -37,8 +37,54 @@
           <li>Indian Ice Cream</li>
         </ol>
       </section>
+      <section>
+        <h2>Gallery</h2>
+        <!-- Add hyperlink for Ruby's profile here: -->
+        <p>Here is a small gallery for Ruby Bruce's art.</p>
+        <div>
+          <img
+            src="./media/bepsi-Ruby-Bruce.jpg"
+            alt="Indigenous art by Ruby Bruce of a bepsi can"
+            width="300"
+          />
+          <p>
+            Art created by:
+            <a href="https://indspire.ca/laureate/ruby-bruce/">Ruby Bruce</a>
+          </p>
+          <!-- Figures allow you to dedicate a section for an image and attach a caption onto it. -->
+          <figure>
+            <!-- This src attribute is an example of a relative path. The path is relative to the index.html -->
+            <img
+              src="./media/china-lily-Ruby-Bruce.jpg"
+              alt="Indigenous art by Ruby Bruce of a China Lily bottle of soy sauce"
+              width="250"
+            />
+            <figcaption>
+              Art created by:
+              <a
+                href="https://www.artforcommunities.org/collections/ruby-bruce"
+                target="_blank"
+                >Ruby Bruce</a
+              >
+            </figcaption>
+          </figure>
+          <!-- This is an example of an absolute path: URL -->
+          <a
+            href="https://pixabay.com/photos/forest-reflection-autumn-woods-10124031/"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.pixabay.com/photo/2026/02/15/04/17/ahmetyuksek-forest-reflection-10124031_1280.jpg"
+              alt="Photo of a serene cabin in the woods"
+              height="400"
+            />
+          </a>
+          <p>This image is from: pixabay by ahmetyuksek</p>
+        </div>
+      </section>
     </main>
     <footer>
+      <a href="#top">Click here to go back to the top</a>
       <p>Website built for Auntie's Deadly Eats</p>
     </footer>
   </body>
