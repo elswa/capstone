@@ -1,0 +1,22 @@
+body {
+  /* background-color: red; */
+  /* type comment here */
+  background-color: beige;
+  /* It's best practice to have at least 3 fonts listed. First will be the initial font, if it doesn't work, the next to listed will be the fallbacks */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  color: rgba(127, 66, 9, 0.998);
+}
+
+p {
+  color: #1990b4;
+}
+
+h2 {
+  font-family:
+    "Oswald",
+    sans-seri,
+    arial helvetica;
+}
